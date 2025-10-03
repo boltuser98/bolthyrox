@@ -1,0 +1,21 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 430px) {
+  html,
+  body,
+  #root {
+    background-color: #000000;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
